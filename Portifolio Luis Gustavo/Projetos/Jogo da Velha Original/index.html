@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Recursos/btn-neon/style-bnt-lg.css">
+    <link rel="stylesheet" href="../Recursos/mdl-neon/style-modal-black.css">
+    <link rel="stylesheet" href="../Recursos/mdl-neon/style-modals-initial.css">
+    <link rel="stylesheet" href="../Recursos/mdl-neon/style-modals-final.css">
+    <link rel="stylesheet" href="../Recursos/Efeitos/velha/efect-x-o.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="bgpage">
+        <div class="game-content">
+            <div class="block-area" data-valor="" ></div>
+            <div class="block-area" data-valor="" ></div>
+            <div class="block-area" data-valor="" ></div>
+            <div class="block-area" data-valor="" ></div>
+            <div class="block-area" data-valor="" ></div>
+            <div class="block-area" data-valor="" ></div>
+            <div class="block-area" data-valor="" ></div>
+            <div class="block-area" data-valor="" ></div>
+            <div class="block-area" data-valor="" ></div>
+        </div>
+    </div>
+
+    <div id="fade-modal" class="fade-modal hide"></div>
+
+    <div id="modal-neon-final" class="modal-black-neon hide">
+        
+        <div class="modal-estruct">
+            <div class="modal-header">
+                <h1 class="title-modal-final lord">FimdeJogo</h1>
+                <h1 class="title-modal-final result"></h1>
+            </div>
+
+            <div class="modal-buttons-final">
+            
+                <button class="btn-standard" id="btn-reiniciar-game">Reiniciar</button>
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

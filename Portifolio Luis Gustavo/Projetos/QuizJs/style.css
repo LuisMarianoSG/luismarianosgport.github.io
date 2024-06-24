@@ -1,0 +1,96 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0a0a0a !important;   
+}
+
+.bgpage{
+    background-color: #0a0a0a;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main{
+    margin-top: 10vh;
+    background: rgb(19,19,19);
+    background: linear-gradient(90deg, rgba(19,19,19,1) 0%, rgba(0,0,0,1) 35%, rgba(23,23,23,1) 64%, rgba(36,36,36,1) 100%);
+    
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr;
+    border-radius: 10px;
+    
+}
+
+.tabela-itens{
+    background: transparent;
+  
+    width: max-content;
+    
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 60px 60px;
+    gap: 10px;
+    grid-area: "1 2" "3 4";
+    
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+
+
+.header-quiz{
+    background: transparent;
+    
+    padding: 30px;
+    display: grid;
+    grid-template-rows: 60px  20px;
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.enunciado{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    max-width: 700px;
+    color: aliceblue;
+    transition: all 800ms ease-in-out;
+    
+    
+}
+.color-score{
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #05c4e6f8;
+    text-shadow: 0 0 10px #05c4e6;
+    position: absolute;
+    bottom: 2px;
+    left: 43%;
+    transition: 600ms ease-in-out;
+
+  
+    
+}

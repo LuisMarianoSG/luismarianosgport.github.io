@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #18191a;
+}
+
+.breve-intro {
+    background-color: rgb(34, 35, 36);
+    width: 30%;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    position: fixed;
+    transform: translateY(25%);
+}
+
+.sub-intro {
+    text-align: center;
+}
+
+hr {
+    margin: 20px;
+    border-color: rgba(143, 143, 143, 0.226);
+}
+
+.foto {
+    border-radius: 50%;
+    width: 100px;
+    border: 5px rgb(46, 46, 46) solid;
+    transition: 500ms;
+}
+
+.foto:hover {
+    border-radius: 50%;
+    width: 150px;
+    border: 8px rgb(46, 46, 46) solid;
+}
+
+.nome {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.habilidades {
+    color: aliceblue;
+    background-color: rgb(57, 58, 58);
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.habilidades-p {
+    margin-bottom: 3%;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.introducao {
+    background-color: rgb(34, 35, 36);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.introducao button{
+    background-color: rgb(167, 0, 189);
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 30px;
+    transition: 500ms;
+}
+
+.introducao a button {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.introducao button:hover {
+    box-shadow: 0 8px 8px rgb(96, 0, 109);
+    cursor: pointer;
+}
+
+.sobre{
+    background-color: rgb(34, 35, 36);
+    border-radius: 8px;
+    margin: 20px;
+    margin-right: 10%;
+    padding: 30px;
+}
+
+.icone {
+    color: aliceblue;
+    border: 1px rgba(143, 143, 143, 0.226) solid;
+    border-radius: 20px;
+    padding: 8px;
+    width: min-content;
+    font-size: 12px;
+}
+
+.intro-titulo {
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+span {
+    color: rgb(167, 0, 189);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sobre-titulo {
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: light;
+    padding-top: 35px;
+}
+
+.info {
+    color: rgba(143, 143, 143, 0.788);
+    margin-top: 30px;
+    font-size: larger;
+}
+
+.cont {
+    color: aliceblue;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contato {
+    display: flex;
+    margin-top: 5%;
+}
+
+.main {
+    width: 65%;
+    margin-left: 35%;
+}
+
+.projetos {
+    background-color: rgb(34, 35, 36);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px;
+    margin-right: 10%;
+}
+
+
+.rodape {
+    color: rgba(143, 143, 143, 0.788);
+    text-align: center;
+    font-size: 10px;
+}
+
+.demo {
+    display: flex;
+    padding: 20px;
+}
+
+.prj {
+    flex: 1; /* Cada projeto vai ocupar o mesmo espaço disponível */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui o conteúdo verticalmente */
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid rgba(143, 143, 143, 0.226);
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+.prj:hover {
+    border: 1px rgb(167, 0, 189) solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgb(96, 0, 109);
+    margin: auto;
+    margin: 1%;
+}
+
+.num {
+    font-weight: 800;
+    color: #18191a;
+    transition: 500ms;
+    font-size: 50px;
+}
+
+.prj:hover .num{
+    color: aliceblue;
+}
+
+.proj-titu {
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.veja {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: rgb(167, 0, 189);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.veja:hover {
+    box-shadow: 0 5px 5px rgb(96, 0, 109);
+    cursor: pointer;
+}
+
+.html {
+    background-color: rgb(34, 35, 36);
+    border-radius: 10px;
+    padding: 3%;
+    border: 2px rgba(143, 143, 143, 0.226) solid;
+    transition: 500ms;
+}
+
+.html:hover {
+    border-radius: 10px;
+    background-color: rgb(24, 25, 26);
+    box-shadow: 0 2px 2px rgb(13, 13, 13);
+    border: 2px rgb(13, 13, 13) solid;
+}
+
+.css {
+    background-color: rgb(34, 35, 36);
+    border-radius: 10px;
+    padding: 3%;
+    border: 2px rgba(143, 143, 143, 0.226) solid;
+    transition: 500ms;
+}
+
+.css:hover {
+    border-radius: 10px;
+    background-color: rgb(24, 25, 26);
+    box-shadow: 0 2px 2px rgb(13, 13, 13);
+    border: 2px rgb(13, 13, 13) solid;
+}
+
+.javascript {
+    background-color: rgb(34, 35, 36);
+    border-radius: 10px;
+    padding: 3%;
+    border: 2px rgba(143, 143, 143, 0.226) solid;
+    transition: 500ms;
+}
+
+.javascript:hover {
+    border-radius: 10px;
+    background-color: rgb(24, 25, 26);
+    box-shadow: 0 2px 2px rgb(13, 13, 13);
+    border: 2px rgb(13, 13, 13) solid;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.star {
+    position: absolute;
+    background-color: rgb(126, 0, 143);
+    border-radius: 50%;
+    box-shadow: 0 0 10px 6px rgb(96, 0, 109);
+    animation: twinkle 1s infinite alternate;
+}
+
+@keyframes twinkle {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+#typewriter-text {
+    color: rgba(143, 143, 143, 0.788);
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.IconTech {
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+    mask: linear-gradient(90deg, transparent,white);
+}
+
+.IconTech:hover .loop {
+    animation-play-state: paused;
+}
+
+.loop {
+    white-space: nowrap;
+    animation: 10s slide infinite linear;
+}
+
+.IconTech .loop img {
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(191, 191, 191, 0.3) 0px 18px 36px -18px inset, rgba(116, 116, 128, 0.25) 0px 50px 100px -20px;
+    position: relative;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+} 
+
+.IconTech .loop img:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(191, 191, 191, 0.3) 0px 18px 36px -18px inset, rgba(116, 116, 128, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(238, 238, 238, 0.09) 0px -3px 5px;
+}

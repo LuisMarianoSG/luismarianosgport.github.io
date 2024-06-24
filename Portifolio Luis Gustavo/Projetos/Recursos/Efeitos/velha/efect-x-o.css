@@ -1,0 +1,43 @@
+.block-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.block-area.o, .block-area.x{
+    cursor:not-allowed;
+
+    
+}
+
+.block-area.o::before, .block-area.o::after {
+    content: "";
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 10px #f50606;
+    border: 10px solid #f50606; 
+    transition: 400ms;
+}
+.block-area.x::before, .block-area.x::after {
+    content: "";
+    height: 80%;
+    width: 15%;
+    transition: 400ms;
+    
+    
+    position: absolute;
+    background-color: #03c21c;
+    border: 2px solid #03c21c; 
+    box-shadow: 0 0 15px #03c21c;
+}
+.block-area.x::before{
+    transform: rotate(-45deg);
+}
+.block-area.x::after{
+    transform: rotate(45deg);
+}

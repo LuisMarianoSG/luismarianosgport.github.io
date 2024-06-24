@@ -1,0 +1,35 @@
+.hearts {
+    display: flex;
+    gap: 5px; 
+    justify-content: center; 
+    margin-top: 50px;
+    
+    
+  }
+
+.hearts .life-icon {
+    
+    transition: transform 0.5s ease-in-out; 
+    width: 20px;
+    height: 20px;
+    background-image: url('./img/vecteezy_full-life-point-pixel-three-pixel-hearts_29889850-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: lifeAnimation 0.5s ease-in-out;
+}
+
+
+@keyframes lifeAnimation {
+  0%, 100% {
+      transform: translateY(0); 
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+}
+
+
+
+
+
+  

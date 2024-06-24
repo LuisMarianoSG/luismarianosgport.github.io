@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevQuiz</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Recursos/btn-neon/style-bnt-lg.css">
+    <link rel="stylesheet" href="../Recursos/mdl-neon/style-modal-black.css">
+    <link rel="stylesheet" href="../Recursos/mdl-neon/style-modals-initial.css">
+    <link rel="stylesheet" href="../Recursos/mdl-neon/style-modals-final.css">
+    <script src="script.js" defer></script>
+
+    
+
+    
+</head>
+<body>
+    <div class="bgpage">
+        <main class="main shadow-neon-blue">
+            <div class="header-quiz">
+                <h1 class="enunciado" id="enunciado">Questão</h1>
+                <h3 class="color-score" id="score">score:</h3>
+            </div>
+            <div class="tabela-itens" id="quiz-itens">
+                <button type="button" class="btn-standard itens">Item 1</button>
+                <button type="button" class="btn-standard itens">Item 2</button>
+                <button type="button" class="btn-standard itens">Item 3</button>
+                <button type="button" class="btn-standard itens">Item 4</button>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Modal -->
+    <div id="modal-neon-initial" class="modal-black-neon">
+        
+        <div class="modal-estruct">
+            <div class="modal-header">
+                <h1 class="title-modal-initial">DevQz</h1>
+                
+            
+            </div>
+            
+            <div class="modal-body">
+                    <p class="text-sob-input">Nome do PLayer</p>
+                    <input type="text"  class="input-modal" placeholder="Ex: Player1"></input>
+            </div>
+            <div class="modal-buttons-initial">
+            
+                <button id="btn-initial-close" class=" btn-standard-p cancel">Cancelar</button>
+                <button id="btn-initial-continue" class="btn-standard-p continue">Continue</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Fade - Backgroud Modal -->
+    <div id="fade-modal" class="fade-modal hide"></div>
+    <!-- Fade - Backgroud Modal -->
+
+    <!-- Modal Game Over -->
+    <div id="modal-neon-final" class="modal-black-neon">
+        
+        <div class="modal-estruct">
+            <div class="modal-header">
+                <h1 class="title-modal-final" id="title-modal-final" >FimdeJogo</h1>
+                
+            
+            </div>
+            <div class="modal-body">
+                    <p class="text-sob-input">Pontuação do Game</p>
+                    <div class="content-list-elements">
+                        <ul id="list-elements">
+                            
+                        </ul>
+                    </div>
+            </div>
+            <div class="modal-buttons-final">
+            
+                <button class="btn-standard" id="btn-reiniciar-game">Reiniciar</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Game Over -->
+
+
+</body>
+
+
+
+
+
+
+
+</html>
